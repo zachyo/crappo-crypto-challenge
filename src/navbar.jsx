@@ -9,13 +9,13 @@ const Navbar = () => {
           <nav>
             <img src={logo} alt="" />
             <div className="nav-list">
-              <p>Products</p>
-              <p>Features</p>
-              <p>About</p>
-              <p>Contact</p>
-              <p>Login</p>
+              <a href="/">Products</a>
+              <a href="/">Features</a>
+              <a href="/">About</a>
+              <a href="/">Contact</a>
+              <a href="/">Login</a> |{' '}
+              <a href="/">Register</a>
             </div>
-            <button>Register</button>
           </nav>
         </Container>
       </div>
